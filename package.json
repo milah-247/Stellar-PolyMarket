@@ -1,0 +1,18 @@
+{
+  "name": "stellar-polymarket",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "contracts",
+    "frontend",
+    "backend",
+    "constants"
+  ],
+  "scripts": {
+    "dev:frontend": "npm run dev --workspace=frontend",
+    "dev:backend": "npm run dev --workspace=backend",
+    "build": "npm run build --workspaces",
+    "install:all": "npm install"
+  },
+  "description": "Monorepo for Stellar PolyMarket - Soroban smart contracts, Next.js frontend, Node.js backend"
+}
